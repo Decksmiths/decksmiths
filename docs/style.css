@@ -18,6 +18,7 @@ body{
 .header-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .brand{display:flex;align-items:center;gap:12px;color:var(--text);font-weight:700;font-size:1.2rem;text-decoration:none}
 .logo{height:56px;width:auto}
+.brand-name { font-weight: 700; font-size: 1.05rem; margin-left: 0.25rem; }
 .main-nav{display:flex;gap:14px;align-items:center}
 .main-nav a{color:var(--accent);text-decoration:none;padding:6px 8px;border-radius:6px}
 .main-nav a:hover{color:var(--card);background:var(--accent)}
