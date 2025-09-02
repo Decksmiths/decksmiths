@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Decksmiths 
-— Build, Test, Play</title>
+  <title>Decksmiths — Build, Test, Play</title>
   <link rel="stylesheet" href="/decksmiths/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <a class="brand" href="/decksmiths/">
-        <img src="docs/assets/decksmiths.png" alt="Decksmiths logo" class="logo">
+        <!-- Absolute path to ensure GitHub Pages loads the image correctly -->
+        <img src="/decksmiths/docs/assets/decksmiths.png" alt="Decksmiths logo" class="logo">
         <span class="brand-name">Decksmiths</span>
       </a>
       <nav class="main-nav" id="mainNav">
@@ -20,7 +20,8 @@
         <a href="/decksmiths/contact.html">Contact</a>
       </nav>
       <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
-☰</button>
+        ☰
+      </button>
     </div>
   </header>
 
@@ -49,7 +50,8 @@
 
   <footer class="site-footer">
     <div class="container">
-© Decksmiths</div>
+      © Decksmiths
+    </div>
   </footer>
 
   <script src="/decksmiths/script.js"></script>
